@@ -1,0 +1,63 @@
+body{
+	background-color:pink;	
+	text-align: center
+}
+
+
+#eigth_box{
+	width:800px;
+	height: 800px;
+	background: #FF00CC;
+	margin:auto;
+}
+
+#seventh_box{
+	width:700px;
+	height: 700px;
+	background: #AF00CC;
+	margin:auto;
+}
+
+#sixth_box{
+	width:600px;
+	height: 600px;
+	background: #BF00CC;
+	margin:auto;
+}
+
+#fifth_box{
+	width:500px;
+	height: 500px;
+	background: #CF00CC;
+	margin:auto;
+}
+
+#fourth_box{
+	width:400px;
+	height: 400px;
+	background: #FF00CC;
+	margin:auto;
+}
+
+#third_box{
+	width:300px;
+	height: 300px;
+	background: #DF00CC;	
+	margin:auto;
+}
+
+#second_box{
+	width:200px;
+	height: 200px;
+	background: #DD00EC;	
+	margin:auto;
+}
+
+#first_box{
+	width:100px;
+	height: 100px;
+	background: #DE00CC;	
+	margin:auto;
+	font: sans-serif bold;	
+}
+

@@ -1,0 +1,68 @@
+@import "box_color.scss";
+
+$size:100;
+$color : pink;
+$box_height:100px;
+$box_width:100px;
+
+body{
+	background:$color;
+
+		.my_text{
+			text-align: center;
+			font-style:italic;			
+		}
+
+		#first_box{
+		width:$box_width;
+		height:$box_height;
+		@include box_color($size);			
+	}
+
+	#second_box{
+		@include box_color($size*2);			
+		width: $box_width*2;
+		height: $box_height*2;
+	}
+
+	#third_box{
+		@include box_color($size*3);			
+		width: $box_width*3;
+		height: $box_height*3;
+	}
+
+	#fourth_box{
+		@include box_color($size*4);			
+		width: $box_width*4;
+		height: $box_height*4;
+	}
+
+	#fifth_box{
+		@include box_color($size*5);			
+		width: $box_width*5;
+		height: $box_height*5;
+	}
+
+	#sixth_box{
+		@include box_color($size*6);			
+		width: $box_width*6;
+		height: $box_height*6;
+	}
+
+	#seventh_box{
+		@include box_color($size*7);			
+		width: $box_width*7;
+		height: $box_height*7;
+	}
+
+	#eigth_box{
+		@include box_color($size*8);			
+		width: $box_width*8;
+		height: $box_height*8;
+	}
+}
+
+
+#first_box,#second_box,#third_box,#fourth_box,#fifth_box,#sixth_box,#seventh_box,#eigth_box{
+	margin:auto;
+}

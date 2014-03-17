@@ -1,0 +1,28 @@
+@mixin box_color($size){
+	$color:#FFFCF2;
+	@if $size<=100{
+		background:$color;
+	}	
+	@else if $size<=200{
+		background:darken($color,20%);
+	}
+	@else if $size<=300{
+		background:darken($color,30%);
+	}	
+	@else if $size<=400{
+		background:darken($color,40%);
+	}	
+	@else if $size<=500{
+		background:darken($color,50%);
+	}	
+	@else if $size<=600{
+		background:darken($color,60%);
+	}		
+	@else if $size<=700{
+		background:darken($color,70%);
+
+	}			
+	@else{
+		background:#F22FFF;
+	}			
+}

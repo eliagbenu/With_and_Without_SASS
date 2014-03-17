@@ -1,0 +1,40 @@
+body {
+  background: pink; }
+  body .my_text {
+    text-align: center;
+    font-style: italic; }
+  body #first_box {
+    width: 100px;
+    height: 100px;
+    background: #fffcf2; }
+  body #second_box {
+    background: #ffe48c;
+    width: 200px;
+    height: 200px; }
+  body #third_box {
+    background: #ffd959;
+    width: 300px;
+    height: 300px; }
+  body #fourth_box {
+    background: #ffcd26;
+    width: 400px;
+    height: 400px; }
+  body #fifth_box {
+    background: #f2ba00;
+    width: 500px;
+    height: 500px; }
+  body #sixth_box {
+    background: #bf9300;
+    width: 600px;
+    height: 600px; }
+  body #seventh_box {
+    background: #8c6c00;
+    width: 700px;
+    height: 700px; }
+  body #eigth_box {
+    background: #F22FFF;
+    width: 800px;
+    height: 800px; }
+
+#first_box, #second_box, #third_box, #fourth_box, #fifth_box, #sixth_box, #seventh_box, #eigth_box {
+  margin: auto; }
